@@ -2,6 +2,16 @@
 
 Complete mPDF font pack for the [Read Offline](https://wordpress.org/plugins/read-offline/) WordPress plugin.  
 
+## Why do I need this? ##
+
+This add-on enables support for all the fonts and languages supported by mPDF, among other:
+* Arabic (السلام عليكم), Hebrew (שלום), Syriac (ܐܣܛܪܢܓܠܐ)
+* Indic - Bengali (স্লামালিকুম), Devanagari (नमस्ते), Gujarati (નમસ્તે), Punjabi (ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ), Kannada (ನಮಸ್ತೆ), Malayalam (നമസ്തെ), Oriya (ନମସ୍କର), Tamil (வணக்கம்), Telugu (నమస్కారం)
+* Sinhala (ආයුඛෝවන්), Thai (สวัสดี), Lao (ສະບາຍດີ), Khmer (ជំរាបសួរ), Myanmar (မဂႆလာပၝ), Tibetan (བཀྲ་ཤིས་བདེ་ལེགས།)
+
+### NOTE ###
+If the fonts in Read Offline is working fine, don't install this add-on, it's 180MB.
+
 ## Requirements ##
 [Read Offline](https://wordpress.org/plugins/read-offline/)  must be installed and activated
 
