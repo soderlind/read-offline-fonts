@@ -24,13 +24,13 @@ module.exports = function (grunt) {
 	 * Let's add a couple of more files to GitHub
 	 * @type {Array}
 	 */
-	git_files_list = svn_files_list.concat([
+	git_files_list = [
 		'README.md',
 		'CREDITS.md',
 		'package.json',
 		'Gruntfile.js',
 		'ttfonts/**',
-	]);
+	];
 
 	// Project configuration.
 	grunt.initConfig({
