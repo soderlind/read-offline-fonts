@@ -1,8 +1,8 @@
 {
   "name": "read-offline-fonts",
   "title": "Read Offline Fonts",
-  "version": "0.6.2",
-  "git_tag": "0.6.2",
+  "version": "0.6.3",
+  "git_tag": "0.6.3",
   "description": "Complete mPDF font pack for Read Offline",
   "main": "read-offline-fonts.php",
   "scripts": {
