@@ -4,7 +4,7 @@ Plugin Name: Read Offline Fonts
 Plugin URI: http://soderlind.no/archives/2012/10/01/read-offline/
 Description: Complete mPDF font pack for <a href="https://wordpress.org/plugins/read-offline/">Read Offline</a>
 Author: Per Soderlind
-Version: 0.6.2
+Version: 0.6.3
 Author URI: http://soderlind.no
 Text Domain: read-offline-fonts
 Domain Path: /languages
