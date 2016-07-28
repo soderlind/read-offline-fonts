@@ -12,13 +12,13 @@ Domain Path: /languages
 defined( 'ABSPATH' ) or die();
 
 add_action('plugins_loaded', function() {
-	if ( ! class_exists( 'Read_Offline' ) || ( version_compare( READOFFLINE_VERSION, '0.6.0' ) < 0 ) )  {
+	if ( ! class_exists( 'Read_Offline' ) || ( defined( 'READOFFLINE_VERSION' ) && version_compare( READOFFLINE_VERSION, '0.6.0' ) < 0 ) )  {
 	    return add_action( 'admin_notices', 'read_offline_fonts_admin_notice' );
 	}
 });
 
 add_action('init',function() {
-	if ( class_exists( 'Read_Offline' ) || ( version_compare( READOFFLINE_VERSION, '0.6.0' ) > 0 ) ) {
+	if ( class_exists( 'Read_Offline' ) || ( defined( 'READOFFLINE_VERSION' ) && version_compare( READOFFLINE_VERSION, '0.6.0' ) > 0 ) ) {
 		define( 'READ_OFFLINE_FONTS', __DIR__ . '/ttfonts/' );
 	}
 }, 9 );
@@ -31,7 +31,7 @@ function read_offline_fonts_admin_notice () {
 		$msg[] = __('Read Offline Fonts is an add-on to Read Offline, please download and install','read-offline-fonts') . ' <a href="https://wordpress.org/plugins/read-offline/">Read Offline</a>';
 	}
 
-	if  ( version_compare( READOFFLINE_VERSION, '0.5.0' ) < 0 )  {
+	if  ( version_compare( READOFFLINE_VERSION, '0.6.0' ) < 0 )  {
 		$msg[] = __('Read Offline Fonts requires Read Offline 0.6.0 or newer, please upgrade','read-offline-fonts') . ' <a href="update-core.php">Read Offline</a>';
 	}
 
