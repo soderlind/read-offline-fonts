@@ -11,7 +11,7 @@ This add-on enables support for all the fonts and languages supported by mPDF, a
 
 ## UTF-8 SAMPLER
 
-The pdf, epub and mobi files in the [examples](exaples) folder are using the UTF-8 SAMPLER at http://www.columbia.edu/kermit/utf8.html as source.
+The pdf, epub and mobi files in the [examples](examples) folder are using the UTF-8 SAMPLER at http://www.columbia.edu/kermit/utf8.html as source.
 
 ### NOTE ###
 If the fonts in Read Offline is working fine, don't install this add-on, it's 180MB.
