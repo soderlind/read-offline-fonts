@@ -30,6 +30,7 @@ module.exports = function (grunt) {
 		'package.json',
 		'Gruntfile.js',
 		'ttfonts/**',
+		'examples/**'
 	];
 
 	// Project configuration.
