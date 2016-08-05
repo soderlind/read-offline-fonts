@@ -9,9 +9,9 @@ This add-on enables support for all the fonts and languages supported by mPDF, a
 * Indic - Bengali (স্লামালিকুম), Devanagari (नमस्ते), Gujarati (નમસ્તે), Punjabi (ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ), Kannada (ನಮಸ್ತೆ), Malayalam (നമസ്തെ), Oriya (ନମସ୍କର), Tamil (வணக்கம்), Telugu (నమస్కారం)
 * Sinhala (ආයුඛෝවන්), Thai (สวัสดี), Lao (ສະບາຍດີ), Khmer (ជំរាបសួរ), Myanmar (မဂႆလာပၝ), Tibetan (བཀྲ་ཤིས་བདེ་ལེགས།)
 
-## UTF-8 SAMPLER
+## Demp samples
 
-The pdf, epub and mobi files in the [examples](examples) folder are using the UTF-8 SAMPLER at http://www.columbia.edu/kermit/utf8.html as source.
+Based on the [UTF-8 sampler from the Kermit prokect](http://www.columbia.edu/kermit/utf8.html), you'll find a pdf, epub and mobi in the [examples](examples) folder.
 
 ### NOTE ###
 If the fonts in Read Offline is working fine, don't install this add-on, it's 180MB.
